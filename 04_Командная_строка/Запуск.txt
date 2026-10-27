@@ -1,0 +1,52 @@
+=== Creating Test1.txt with COPY ===
+        1 file(s) copied.
+Informatics laboratory. Variant 6.
+Dubogray Artem Yuryevich, group 615.
+=== Copying the source to all other directories ===
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+=== Renaming three copies ===
+=== Concatenating Test1.txt and Test2.txt ===
+Name1\Test1.txt
+Name1\Name2\Test2.txt
+        1 file(s) copied.
+Informatics laboratory. Variant 6.
+Dubogray Artem Yuryevich, group 615.
+Informatics laboratory. Variant 6.
+Dubogray Artem Yuryevich, group 615.
+=== Directory contents ===
+ Volume in drive F has no label.
+ Volume Serial Number is 0F1A-0E5D
+
+ Directory of F:\study\inf-labs\04_Командная_строка\work\run_1\Name1
+
+26.10.2026  12:33    <DIR>          .
+26.10.2026  12:33    <DIR>          ..
+26.10.2026  12:33    <DIR>          Name2
+26.10.2026  12:33    <DIR>          Name5
+26.10.2026  00:36                74 Test1.txt
+26.10.2026  12:33               148 Test5.txt
+               2 File(s)            222 bytes
+               4 Dir(s)  93 389 099 008 bytes free
+=== Directory tree in the working area ===
+Folder PATH listing
+Volume serial number is 0F1A-0E5D
+F:\STUDY\INF-LABS\04_���������_������\WORK\RUN_1\NAME1
+|   Test1.txt
+|   Test5.txt
+|   
++---Name2
+|   |   Test2.txt
+|   |   
+|   +---Name3
+|   |       Test3.txt
+|   |       
+|   \---Name4
+|           Test4.txt
+|           
+\---Name5
+        Test1.txt
+        
+Completed successfully.

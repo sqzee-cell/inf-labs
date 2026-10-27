@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Дубограй Артем Юрьевич — лабораторная работа по HTML</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #eee; color: #171717; font: 18px/1.5 Georgia, "Times New Roman", serif; }
+    main { max-width: 900px; margin: 28px auto; padding: 54px 64px; background: white; }
+    .cover { text-align: center; padding-bottom: 42px; border-bottom: 1px solid #ddd; }
+    h1 { font-size: 34px; margin: 0 0 8px; }
+    h2 { font-size: 25px; margin: 8px 0; }
+    h3 { font-size: 22px; margin-top: 64px; }
+    .topic { color: #174e85; font-size: 22px; font-weight: bold; }
+    .author { text-align: left; margin: 54px 0 38px auto; max-width: 390px; }
+    .year { margin-top: 60px; }
+    section { margin-top: 34px; }
+    pre { font: 17px/1.2 Consolas, "Courier New", monospace; overflow-x: auto; padding: 20px 0; white-space: pre; }
+    .blue { color: #174e85; } .gold { color: #a15c00; } .red { color: #b72f3a; }
+    @media (max-width: 650px) { main { margin: 0; padding: 30px 22px; } pre { font-size: 12px; } }
+    @media print { body { background: white; } main { margin: 0; padding: 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <header class="cover">
+    <h1>РГРТУ</h1>
+    <h2>Кафедра ВПМ</h2>
+    <h3>Лабораторная работа № 7</h3>
+    <p class="topic">Создание HTML-страниц. Форматирование.<br>Текстовые рисунки и работа с цветом</p>
+    <div class="author">
+      <p><strong>Выполнил:</strong><br>студент группы 615<br>Дубограй Артем Юрьевич</p>
+      <p><strong>Проверил:</strong><br>Никичкин Б. В.</p>
+    </div>
+    <p class="year">Рязань 2026</p>
+  </header>
+  <section aria-labelledby="task">
+    <p id="task"><strong>Задание</strong></p>
+    <p><em style="font-family:Arial,sans-serif">Оформить титульный лист средствами HTML. Использовать заголовки первого, второго и третьего уровней, полужирное и курсивное начертание. Создать трёхцветное изображение из текстовых символов с моноширинным шрифтом.</em></p>
+  </section>
+  <section aria-labelledby="result">
+    <h2 id="result">Результат выполнения лабораторной работы</h2>
+    <p>Текстовый рисунок «Старт». Все детали изображения составлены из символов; использованы три цвета.</p>
+    <pre role="img" aria-label="Ракета над стартовой площадкой, нарисованная текстовыми символами в трёх цветах"><span class="blue">                    /\
+                   /  \
+                  /____\
+                  |    |
+                  | () |
+                  |    |
+                  |    |
+                 /|    |\
+                /_|____|_\</span>
+<span class="gold">                   /||\
+                  / || \
+                 /  ||  \</span>
+<span class="red">                /   **   \
+               /   ****   \
+              /___******___\</span>
+<span class="blue">          ________________________
+          Д У Б О Г Р А Й   А Р Т Е М</span></pre>
+    <p><strong>Вывод.</strong> Создана HTML-страница с заголовками разных уровней и форматированием текста. Тег <code>pre</code> сохраняет пробелы и переносы строк рисунка, а элементы <code>span</code> задают три цвета его частей.</p>
+  </section>
+</main>
+</body>
+</html>
